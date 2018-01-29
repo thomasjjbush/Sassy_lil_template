@@ -1,0 +1,33 @@
+.skills {
+
+	&:before {
+		background: linear-gradient(to right bottom, #fff calc(50% - 1px), #141414 50%);
+	}
+
+	background-color: #141414;
+	overflow: hidden;
+
+	.structure {
+
+		margin-bottom: 5%;
+
+		h2 {
+			color: #fff;
+			font-size: 18px;
+		}
+
+		p {
+			color: #fff;
+			margin: 0px;
+
+			a {
+				color: #141414;
+				text-decoration: none;
+				background-color: #fff;
+			}
+
+		}
+
+	}
+
+}

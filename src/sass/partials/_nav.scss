@@ -1,0 +1,79 @@
+// panel
+.nav {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: flex-end;
+	width: 215px;
+	background-color: #141414;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 2%;
+	z-index: 1001;
+	transform: translateX(215px);
+	transition: all 0.25s ease-out;
+	@include position(fixed, $top: 0, $right: 0, $bottom: 0);
+	-webkit-touch-action: none !important;
+
+	// angle
+	&:before {
+		content: "";
+		display: block;
+		clip-path: polygon(100% 0, 100% 0, 100% 100%);
+		width: calc(100vw - 215px);
+		height: 100%;
+		transition: all 0.25s ease-out;
+		background: #141414 url(../img/logo.png) no-repeat;
+		background-size: 200px 200px;
+		background-position: calc(50% + 107px);
+		@include position(absolute, $top: 0, $left: calc(-100vw + 215px));
+	}
+
+	// buttons
+	a {
+
+		font-size: 20px;
+		cursor: pointer;
+		margin: 1em 0;
+		color: #fff;
+		text-decoration: none;
+
+		@media (hover: hover) {
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+		}
+
+	}
+
+	// visible
+	&--visible {
+
+		transform: translateX(0px);
+
+		&:before {
+			clip-path: polygon(100% 0, 1% 0, 100% 100%);
+		}
+
+		+ main {
+
+			opacity: 0.4;
+			pointer-events: none !important; 
+			user-select: none;
+
+		}
+
+	}
+
+	@media (max-width: $breakpoint-tablet-portrait) {
+
+		&:before {
+			background: #141414;
+		}
+
+	}
+
+}

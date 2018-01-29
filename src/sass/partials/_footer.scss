@@ -1,0 +1,61 @@
+.footer {
+
+	background-color: #141414;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	a {
+		display: block;
+		width: 40px;
+		height: 40px;
+		background-color: #fff;
+		margin: 50px 5% 50px 5%;
+		position: relative;
+		text-decoration: none;
+
+		&:after {
+
+			@include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+			font-family: social;
+			color: #141414;
+			font-size: 18px;
+			line-height: 40px;
+			text-align: center;
+		} 
+
+		&.linked:after 	{ content: "\e903"; }
+		&.twitter:after { content: "\e904"; }
+		&.insta:after 	{ content: "\e902"; }
+
+		// hover
+		&:hover {
+
+			&.linked {
+
+				background-color: #0178a3;
+
+				&:after { color: #fff; }
+
+			}
+
+			&.twitter {
+				
+				background-color: #02b2fb;
+		
+				&:after { color: #fff; }
+			}
+
+			&.insta {
+				
+				background-color: #e3569a;
+
+				&:after { color: #fff; }
+
+			}
+
+		}
+
+	}
+
+}

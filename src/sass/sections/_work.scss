@@ -1,0 +1,178 @@
+.work {
+	
+	&:before {
+		background: linear-gradient(to right bottom, #141414 calc(50% - 1px), #fff 50%);
+	}
+
+	.structure {
+		display: -moz-flex;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		perspective: 1150px;
+
+		p { 
+			margin: 0px;
+			padding-bottom: 50px;
+		}
+
+		.card {
+
+			width: 30%;
+			transform-style: preserve-3d;
+			transform-origin: 50% 50%;
+			transition: transform 0.65s;
+			position: relative;
+			cursor: pointer;
+			margin-bottom: 50px;
+
+			div {
+				
+				// shared
+				@include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+				backface-visibility: hidden;
+				overflow: hidden;
+				
+				// front
+				&.front {
+
+					background-size: 100%;
+					background-position: center;
+					filter: grayscale(75%);
+					transition: all .3s linear;
+					
+					h2 {
+
+						@include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+						margin: 0px; 
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						color: #fff;
+						background-color: rgba(0,0,0,0.6);
+						transition: inherit;
+					}
+					
+					// job specifics
+					&.ask_xmas {
+						background-image: url(../img/work/ask.jpg);
+					}
+					&.the_frame {
+						background-image: url(../img/work/the_frame.jpg);
+					}
+					&.smart_hub {
+						background-image: url(../img/work/smart_hub.jpg);
+					}
+					&.easy_view {
+						background-image: url(../img/work/easy_view.jpg);
+					}
+					&.esp {
+						background-image: url(../img/work/esp_0w_20.jpg);
+					}
+					&.meg {
+						background-image: url(../img/work/engine_guarantee.jpg);
+					}
+					&.iws {
+						background-image: url(../img/work/iws.jpg);
+					}
+					&.mpa {
+						background-image: url(../img/work/mpa.jpg);
+					}
+					&.light_duty {
+						background-image: url(../img/work/light_duty_app.jpg);
+					}
+					
+					// client specifics
+					.client {
+						@include position(absolute, $right: 0, $bottom: 0, $left: 0);
+						color: #fff;
+						text-align: center;
+						padding-bottom: 33%;
+					}
+
+					// hovers
+					@media (hover: hover) {
+
+						&:hover {
+
+							filter: grayscale(0%);
+							transform: scale(1.1);
+
+							h2 {
+								background-color: rgba(0,0,0,0.175);
+							}
+
+						}
+
+					}
+
+					// firefox hover:hover bug
+					@-moz-document url-prefix() { 
+
+						&:hover {
+
+							filter: grayscale(0%);
+							transform: scale(1.1);
+
+							// h2 {
+							// 	background-color: rgba(0,0,0,0.2);
+							// }
+
+						}
+
+					}
+
+				}
+				
+				// back
+				&.back {
+					
+					transform: rotateY(180deg);
+					background-color: #fff;
+					border: solid 2px #141414;
+					
+					p {
+						@include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
+						margin: 0px;
+						padding: 5%;
+						display: flex;
+						justify-content: center;
+						align-items: left;
+						flex-direction: column;
+						font-size: 12px;
+	
+						&:after {
+							content: "See more";
+							text-decoration: underline;
+							padding-top: 3%;
+							font-size: 15px;
+							font-weight: bold;
+						}
+
+					}
+
+				}
+
+			}
+			
+			// click
+			&--flipped {
+				transform: rotateY( 180deg );
+			}
+
+			// media queries
+			@media (max-width: $breakpoint-tablet-portrait) {
+				width: 48%;
+				margin-bottom: 30px;
+			}
+		
+			@media (max-width: $breakpoint-mobile-portrait) {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+		}
+
+	}
+
+}
