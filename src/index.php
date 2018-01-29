@@ -9,6 +9,7 @@
         <meta name="description"            content="Thomas Bush - Front End Web Developer - London">
         <meta name="author"                 content="Thomas Bush">
         <meta name="viewport"               content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
       	<title>Thomas Bush 1</title>
 
@@ -42,7 +43,7 @@
 
         <?php include('partials/hamburger.php'); ?><!-- hamburger -->
 
-        <div class="preloader"><!-- preload all images -->
+        <div class="preloader">
 
             <p>Loading...</p>
         

@@ -16,7 +16,7 @@
 	@include position(fixed, $top: 0, $right: 0, $bottom: 0);
 	-webkit-touch-action: none !important;
 
-	// angle
+	// angle original code using clip
 	&:before {
 		content: "";
 		display: block;
@@ -24,6 +24,8 @@
 		width: calc(100vw - 215px);
 		height: 100%;
 		transition: all 0.25s ease-out;
+		transform: translateZ(0);
+		will-change: transform;
 		background: #141414 url(../img/logo.png) no-repeat;
 		background-size: 200px 200px;
 		background-position: calc(50% + 107px);

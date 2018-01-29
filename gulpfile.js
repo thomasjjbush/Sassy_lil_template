@@ -51,6 +51,13 @@ gulp.task('font', function() {
   	.pipe(browserSync.stream())
 })
 
+// favicon task
+gulp.task('favicon', function() {
+    return gulp.src('src/*.ico')
+    .pipe(gulp.dest('build/'))
+    .pipe(browserSync.stream())
+})
+
 // image task
 gulp.task('img', function() {
   	return gulp.src('src/img/**/*')
@@ -119,6 +126,7 @@ gulp.task('develop', function () {
     	[
     		'sass', 
     		'font', 
+        'favicon', 
     		'img', 
     		'js',
     		'partial',
@@ -134,7 +142,8 @@ gulp.task('build', function () {
   	runSequence('clean:build', 
     	[
     		'sass', 
-    		'font', 
+    		'font',
+        'favicon',  
     		'img', 
     		'js',
     		'partial',
