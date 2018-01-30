@@ -1,9 +1,19 @@
 <footer class="footer">
 
-	<a href="#" class="linked" name="LinkedIn"></a>
+	<div>
 
-	<a href="#" class="twitter" name="Twitter"></a>
+		<a href="#" class="linked" name="LinkedIn"></a>
 
-	<a href="#" class="insta" name="Instagram"></a>
+		<a href="#" class="twitter" name="Twitter"></a>
+
+		<a href="#" class="insta" name="Instagram"></a>
+
+		<a href="#" class="linked" name="LinkedIn"></a>
+
+		<a href="#" class="twitter" name="Twitter"></a>
+
+		<a href="#" class="insta" name="Instagram"></a>
+
+	</div>
 
 </footer>

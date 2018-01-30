@@ -96,15 +96,8 @@ gulp.task('section', function() {
 // browser sync task
 gulp.task('browserSync', function() {
   	browserSync.init({
-        proxy: "localhost:8888"
+        proxy: "http://localhost:8888"
     });
-})
-gulp.task('browserSync', function() {
-  browserSync.init({
-    server: {
-      baseDir: 'build'
-    },
-  })
 })
 
 // watch task
