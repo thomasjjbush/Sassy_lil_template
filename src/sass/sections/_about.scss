@@ -5,7 +5,33 @@
 	}
 
 	.structure {
+		
+		display: flex;
 		margin-bottom: 5%;
+
+		p { margin-bottom: 5%; }
+		
+		img {
+			width: 100%;
+			max-width: 310px;
+			display: block;
+			align-self: center;
+			margin: auto;
+			clip-path: polygon(0 0, 100% 12.5%, 100% 100%, 0 87.5%);
+			margin: 0 0 0 5%;
+		}
+
+		@media (max-width: $breakpoint-tablet-portrait) {
+			
+			display: block;
+
+			img {
+				max-width: none;
+				margin: 0;
+			}
+
+		}
+
 	}
 
 }

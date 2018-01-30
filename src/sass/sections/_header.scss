@@ -64,7 +64,7 @@
 	.background {
 
 		@include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
-		background: url(../img/test.jpg) bottom center no-repeat;
+		background: url(../img/mountain.jpg) bottom center no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 		filter: grayscale(75%);

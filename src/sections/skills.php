@@ -6,7 +6,7 @@
 
 			<span class="title">MY SKILLS</span>
 
-			My skills include the following; Html, Sass, Javascript, jQuery. I also have limited experience using js frameworks including Angular and React. I also have a real flare for design. <span style="color:red;">Need to re-write.</span>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac gravida lectus, non lacinia lacus. Duis dictum condimentum tempor. Aliquam mollis odio felis, ac congue nibh egestas non. Proin at elit tincidunt tortor lobortis dignissim. Suspendisse iaculis ex eget est suscipit sagittis.
 
 		</p>
 
