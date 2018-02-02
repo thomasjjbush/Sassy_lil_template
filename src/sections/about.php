@@ -9,7 +9,7 @@
 
 		</p>
 
-		<img src="img/about/placeholder.png">
+		<img src="img/about/placeholder.jpg" alt="me">
 
 	</div>
 

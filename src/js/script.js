@@ -203,8 +203,3 @@ $(window).on("load resize",function(){
 	$(card).css("height", width);
 
 });
-
-
-
-
-	

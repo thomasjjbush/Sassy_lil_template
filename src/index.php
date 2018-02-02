@@ -4,14 +4,18 @@
 
     <head>
 
+        <!-- meta -->
         <meta http-equiv="X-UA-Compatible"  content="IE=edge">
         <meta charset="utf-8">
         <meta name="description"            content="Thomas Bush - Front End Web Developer - London">
+        <meta name="keywords"               content="Thomas,Bush,Front,End,Developer,London">
         <meta name="author"                 content="Thomas Bush">
         <meta name="viewport"               content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        
+        <!-- favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
-      	<title>Thomas Bush 1</title>
+      	<title>Thomas Bush</title>
 
       	<!-- STYLESHEET **************************************************************************** -->
     	<link rel="stylesheet" type="text/css" href="css/main.css">
