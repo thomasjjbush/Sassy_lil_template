@@ -6,7 +6,7 @@
 
 			<span class="title">MY WORK</span> 
 
-			I've been fortunate enough to work with a number of big brands including ASK Italian, ExxonMobil, Gu, Samsung and ExxonMobil. If you would like to see an example my working environment please download the build package for this site <a href="codepackagehere" download>here</a> or fork from BitBucket <a href="codepackagehere" target="_blank">here</a>.
+			I've been fortunate enough to work with a number of big brands including ASK Italian, ExxonMobil, Gu, Samsung and ExxonMobil. If you would like to see an example my working environment please see <a href="https://github.com/thomasjjbush/thomasjjbush.github.src" target="_blank">here</a>. 
 
 		</p>
 
@@ -24,7 +24,11 @@
 
 				<p class="click">
 
-					Due to it's size and complexity, the ASK Italian website is a great example of my ability to work within a larger team.
+					My role: Maintenance
+
+					<br  /><br  />
+
+					Due to it's size and complexity, the ASK Italian website is a great example of my ability to work within a larger team. 
 
 				</p>
 
@@ -46,7 +50,11 @@
 
 				<p class="click">
 
-					This landing page was used across multiple retailers. The page is a really stunning example of how great parallax can be.
+					My role: Build
+
+					<br  /><br  />
+
+					This promotional page was used across multiple retailers. The page is a really stunning example of how beautiful a parallax design can be.
 
 				</p>
 
@@ -68,7 +76,11 @@
 
 				<p class="click">
 
-					The Smart Hub microsite was used across multiple retailers. 
+					My role: Build
+
+					<br  /><br  />
+
+					The Smart Hub microsite was used across multiple retailers to promote Samsung Audio &amp; Visual products. This project is fully responsive at any screen dimensions, considering the desktop oriented design - quite a feat.
 
 				</p>
 
@@ -90,7 +102,11 @@
 
 				<p class="click">
 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut luctus dui. Donec id risus quis mauris rutrum rutrum eget id nibh.
+					My role: Build
+
+					<br  /><br  />
+
+					The Easy View promotional page is a very basic build, however it's a great example of how sleek design and subtle animtions can bring a page to life.
 
 				</p>
 
@@ -112,7 +128,11 @@
 
 				<p class="click">
 
-					This product launch landing page was built to allow for easy localising 
+					My role: Build
+
+					<br  /><br  />
+
+					This product launch promotional page was used in over 10 different markets. 
 
 				</p>
 
@@ -133,6 +153,10 @@
 			<div class="back" data-subject="meg" data-screen="ipad" data-image="engine_guarantee_full_0.jpg" data-opts="5">
 
 				<p class="click">
+
+					My role: Build
+
+					<br  /><br  />
 
 					The Mobil 1 Engine Guarantee app. The javascript used to build this application was Angular 2 inspired, combined with some great css animations. This application was built for iPad, Android Tablet and desktop userbility.
 
@@ -156,7 +180,11 @@
 
 				<p class="click">
 
-					The IWS app uses custom javascript for all functionality, . This application was built for iPad, Android Tablet and desktop userbility.
+					My role: Build
+
+					<br  /><br  />
+
+					The IWS app uses custom javascript for all functionality, which features a downloads basket and form to pdf functionality. This application was built for iPad, Android Tablet and desktop userbility.
 
 				</p>
 
@@ -178,7 +206,11 @@
 
 				<p class="click">
 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut luctus dui. Donec id risus quis mauris rutrum rutrum eget id nibh.
+					My role: Build
+
+					<br  /><br  />
+
+					The Mobil Performance App desktop homepage is available in 12 languages and built for a .NET environment.  
 
 				</p>
 
@@ -200,7 +232,11 @@
 
 				<p class="click">
 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut luctus dui. Donec id risus quis mauris rutrum rutrum eget id nibh.
+					My role: Build
+
+					<br  /><br  />
+
+					The Light Duty app uses custom javascript for all functionality and includes a custom progress nav. This application was built for iPad, Android Tablet and desktop userbility.
 
 				</p>
 

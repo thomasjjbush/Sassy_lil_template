@@ -35,13 +35,15 @@ body {
 				padding: 0% 5%;
 
 				span.title {
+
 					font-family: Anton;
 					font-size: 3vmax;
 					line-height: 5vmax;
 					display: block;
-					&:after {
-						content: "...";
-					}
+					// animate code
+					width: auto;
+				    white-space: nowrap;
+				    overflow: hidden;   
 				}
 
 			}

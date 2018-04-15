@@ -6,7 +6,7 @@
 
 			<span class="title">LET'S TALK</span>
 			
-			If you're impressed by the above and would like to work together, please fill out the form below and I will seek to get back to you as soon as possible. Thanks!
+			If you're impressed by the above and would like to work together, please fill out the form below and I will seek to get back to you as soon as possible. Alternatively, give me a call on +44 75012 74429. Thanks!
 
 		</p>
 

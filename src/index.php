@@ -56,6 +56,10 @@
         <!-- MY SCRIPTS **************************************************************************** -->
         <script type="text/javascript" src="js/preload.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 
     </body>
 

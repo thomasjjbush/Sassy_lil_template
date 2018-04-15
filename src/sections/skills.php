@@ -4,9 +4,13 @@
 
 		<p>
 
-			<span class="title">MY SKILLS</span>
+			<span class="title wow myAnimation">MY SKILLS</span>
 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac gravida lectus, non lacinia lacus. Duis dictum condimentum tempor. Aliquam mollis odio felis, ac congue nibh egestas non. Proin at elit tincidunt tortor lobortis dignissim. Suspendisse iaculis ex eget est suscipit sagittis.
+		 	The main areas of my expertise are Photoshop, HTML, CSS and JavaScript (native and jQuery). I have some limited experience using JavaScript frameworks including Angular, React and React Native.
+
+		 	<br /><br />
+
+		 	I also have experience working with Flash, Animate CC, Premiere Pro and After Effects.
 
 		</p>
 
