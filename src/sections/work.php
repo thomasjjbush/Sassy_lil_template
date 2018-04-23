@@ -6,7 +6,7 @@
 
 			<span class="title">MY WORK</span> 
 
-			I've been fortunate enough to work with a number of big brands including ASK Italian, ExxonMobil, Gu, Samsung and ExxonMobil. If you would like to see an example my working environment please see <a href="https://github.com/thomasjjbush/thomasjjbush.github.src" target="_blank">here</a>. 
+			I've been fortunate enough to work with a number of big brands including ASK Italian, ExxonMobil, Gu &amp; Samsung. If you would like to see an example my working environment please see <a href="https://github.com/thomasjjbush/thomasjjbush.github.src" target="_blank">here</a>. 
 
 		</p>
 
@@ -237,6 +237,32 @@
 					<br  /><br  />
 
 					The Light Duty app uses custom javascript for all functionality and includes a custom progress nav. This application was built for iPad, Android Tablet and desktop userbility.
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<div class="card">
+
+			<div class="front blast">
+
+				<h2>Blast app</h2>
+
+				<span class="client">Blast</span>
+
+			</div>
+
+			<div class="back" data-subject="blast" data-screen="mobile" data-image="blast_0.jpg" data-opts="3">
+
+				<p class="click">
+
+					My role: UX/Design
+
+					<br  /><br  />
+
+					Blast - the music discovery app. I produced the brand guidelines and designed this application from scratch.
 
 				</p>
 

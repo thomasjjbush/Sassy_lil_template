@@ -75,6 +75,21 @@
 				
 				}
 
+				&.mobile {
+					
+					background-image: url(../img/modal/mobile.jpg);
+					padding-bottom: 67%;
+    				width: 35%;
+
+					.scrollable {
+						width: 90%;
+					    height: 82%;
+					    margin: 15% auto 0 auto;
+					    overflow-y: hidden;
+					}
+				
+				}
+
 				.change_image {
 
 					width: 30px;
