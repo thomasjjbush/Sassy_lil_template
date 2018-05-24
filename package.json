@@ -1,19 +1,13 @@
 {
-  "name": "my_site",
+  "name": "Sass",
   "version": "1.0.0",
-  "description": "Thomas Bush website - Front End Developer.",
+  "description": "Sass",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Thomas",
-    "Bush",
-    "Web",
-    "Developer",
-    "Front",
-    "End",
-    "London"
+    "Sass"
   ],
   "author": "Thomas Bush",
   "license": "ISC",

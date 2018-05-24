@@ -1,25 +1,5 @@
 @charset "utf-8";
 
 /*-------- 1. Base --------*/
-@import "base/fonts";
-@import "base/mixin";
-@import "base/structure";
-@import "base/animations";
-
-/*-------- 3. preloader ----*/ 
-@import "sections/preloader";
-
-/*-------- 3. Partials ----*/
-@import "partials/nav";
-@import "partials/footer";
-@import "partials/hamburger";
-
-/*-------- 4. Pages -------*/
-@import "sections/header";
-@import "sections/about";
-@import "sections/skills";
-@import "sections/work";
-@import "sections/contact";
-
-/*-------- 5. modals -------*/
-@import "modals/modals";
+@import "base/variables";
+@import "base/styles";

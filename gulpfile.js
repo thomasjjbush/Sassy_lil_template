@@ -51,13 +51,6 @@ gulp.task('font', function() {
   	.pipe(browserSync.stream())
 })
 
-// favicon task
-gulp.task('favicon', function() {
-    return gulp.src('src/*.ico')
-    .pipe(gulp.dest('build/'))
-    .pipe(browserSync.stream())
-})
-
 // image task
 gulp.task('img', function() {
   	return gulp.src('src/img/**/*')
@@ -73,39 +66,25 @@ gulp.task('js', function() {
 })
 
 // php (wrapper) task
-gulp.task('page', function() {
-  	return gulp.src('src/*.php')
+gulp.task('html', function() {
+  	return gulp.src('src/*.html')
   	.pipe(gulp.dest('build'))
   	.pipe(browserSync.stream())
-})
-
-// php (partial) task
-gulp.task('partial', function() {
-  	return gulp.src('src/partials/*.php')
-  	.pipe(gulp.dest('build/partials/'))
-  	.pipe(browserSync.stream())
-})
-
-// php (section) task
-gulp.task('section', function() {
-    return gulp.src('src/sections/*.php')
-    .pipe(gulp.dest('build/sections/'))
-    .pipe(browserSync.stream())
 })
 
 // browser sync task
 gulp.task('browserSync', function() {
   	browserSync.init({
-        proxy: "http://localhost:8888"
+        server: {
+            baseDir: "./build/"
+        }
     });
 })
 
 // watch task
 gulp.task('watch', function() {
     gulp.watch('src/sass/**/*.scss', ['sass']).on('change', reportChange);;
-    gulp.watch('src/partials/**/*',  ['partial']).on('change', reportChange);;
-    gulp.watch('src/sections/**/*',  ['section']).on('change', reportChange);;
-    gulp.watch('src/*.php', 		     ['page']).on('change', reportChange);;
+    gulp.watch('src/*.html', 		     ['html']).on('change', reportChange);;
     gulp.watch('src/js/**/*.js', 	   ['js']).on('change', reportChange);;
     gulp.watch('src/img/**/*', 		   ['img']).on('change', reportChange);;
 })
@@ -119,12 +98,9 @@ gulp.task('develop', function () {
     	[
     		'sass', 
     		'font', 
-        'favicon', 
     		'img', 
     		'js',
-    		'partial',
-        'section',
-    		'page'
+    		'html'
     	],
     	'browserSync',
     	'watch'
@@ -135,13 +111,10 @@ gulp.task('build', function () {
   	runSequence('clean:build', 
     	[
     		'sass', 
-    		'font',
-        'favicon',  
+    		'font',  
     		'img', 
     		'js',
-    		'partial',
-        'section',
-    		'page'
+    		'html'
     	]
   	)
 })
